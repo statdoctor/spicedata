@@ -1,12 +1,13 @@
 Package: spicedata
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Data sets of Agrodiversity Experiment
+Version: 0.0.1
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Litty", "Mathew", , "littymathew1996@gmail.com", role = c("aut", "cre"),
+           )
+Description: Combine all data sets in the agrodiversity experiment.
+Details: It has datasets like biomass,climate,soil densit.
+Examples: ## Load the Climate data data(climate_n)
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
